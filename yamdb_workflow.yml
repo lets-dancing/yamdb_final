@@ -31,3 +31,5 @@ jobs:
         cd yamdb_final/
         # запустить написанные разработчиком тесты
         pytest
+  'appleboy/ssh-action'
+  'appleboy/telegram-action'
