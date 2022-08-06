@@ -12,10 +12,10 @@ from rest_framework.permissions import (AllowAny, IsAuthenticated,
                                         IsAuthenticatedOrReadOnly)
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
-from api_yamdb import settings
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
+
+from api_yamdb import settings
 
 from .filterset import TitleFilter
 from .permission import (AdminOnly, AdminOrReadOnly,
