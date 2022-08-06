@@ -17,7 +17,7 @@ jobs:
       run: |
         # перейти в папку, содержащую requirements.txt — 
         #<корневая_папка_yamdb_final>/api_yamdb/requirements.txt
-        cd yamdb_final/api_yamdb/ 
+        cd api_yamdb/ 
         # обновление pip
         python -m pip install --upgrade pip 
         # установка flake8 и его плагинов
@@ -29,9 +29,6 @@ jobs:
       run: |
         # запуск проверки проекта по flake8
         python -m flake8
-        # перейти в папку, содержащую manage.py — 
-        #<корневая_папка_yamdb_final>/api_yamdb/manage.py
-        cd yamdb_final/api_yamdb/
         # перейти в корневую папку проекта
         cd ..
         # запустить написанные разработчиком тесты
