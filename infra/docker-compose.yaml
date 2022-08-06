@@ -9,7 +9,7 @@ services:
       - ./.env
   web:
     build: ../api_yamdb/
-    image: forpracticum/infra_actions:v1.08.2022
+    image: forpracticum/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
