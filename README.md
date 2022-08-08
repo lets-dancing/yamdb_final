@@ -116,3 +116,13 @@ sudo docker-compose exec web python manage.py createsuperuser
 При удалении объекта категории Category не удаляться связанные с этой категорией произведения (Title).  
 При удалении объекта жанра Genre не удаляться связанные с этим жанром произведения (Title).  
 При удалении объекта отзыва Review будут удалены все комментарии к этому отзыву.
+
+## Ссылки на проект:
+* http://51.250.25.105/api/v1/titles/
+* http://51.250.25.105/api/v1/categories/
+* http://51.250.25.105/api/v1/genres/
+* http://51.250.25.105/redoc/
+* http://51.250.25.105/admin/
+
+***Автор проекта:***
+* Александр Пименов | Github:https://github.com/Lets-dancing |
