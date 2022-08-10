@@ -118,11 +118,11 @@ sudo docker-compose exec web python manage.py createsuperuser
 При удалении объекта отзыва Review будут удалены все комментарии к этому отзыву.
 
 ## Ссылки на проект:
-* http://51.250.25.105/api/v1/titles/
-* http://51.250.25.105/api/v1/categories/
-* http://51.250.25.105/api/v1/genres/
-* http://51.250.25.105/redoc/
-* http://51.250.25.105/admin/
+* http://158.160.8.104/api/v1/titles/1/
+* http://158.160.8.104/api/v1/categories/
+* http://158.160.8.104/api/v1/genres/
+* http://158.160.8.104/redoc/
+* http://158.160.8.104/admin/
 
 ***Автор проекта:***
 * Александр Пименов | Github:https://github.com/Lets-dancing |
